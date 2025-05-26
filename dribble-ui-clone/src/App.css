@@ -1,11 +1,27 @@
 .app {
   display: flex;
-}
+  background-color: #121212;
+  height: 100vh;
+  color: white;
+  border: 5px solid gray ;
+  border-radius: 20px;      /* <-- Rounded corners here */
+  box-sizing: border-box;
+  overflow: hidden; }
 
 .main-content {
   flex: 1;
-  background-color: black;
-  color: white;
   padding: 20px;
-  height: 100vh;
+}
+
+.Artist-Name {
+  letter-spacing: 0.2em; /* Adjust the value to your liking */
+  font-size: 50px; /* Adjust the font size as needed */
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px; /* Adjust the margin as needed */
+}
+
+.overlay-content {
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+  padding: 20px;
+  border-radius: 12px;
 }

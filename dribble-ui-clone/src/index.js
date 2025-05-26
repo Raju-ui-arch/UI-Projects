@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';    // <-- Import your main App component
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Music Player</h1>
+    <App />                
   </React.StrictMode>,
   document.getElementById('root')
 );
